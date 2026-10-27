@@ -1,11 +1,360 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test site</title>
+    <title>Blue Lock - Le projet des egoïstes</title>
+
+    <style>
+        body {
+            background-color: #07111f;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            color: #00bfff;
+        }
+
+        header, section, footer {
+            padding: 20px;
+            margin: 15px;
+        }
+
+        header {
+            background-color: #102744;
+            text-align: center;
+        }
+
+        nav a {
+            color: #00bfff;
+            margin: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #00bfff;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .personnage {
+            background-color: #102744;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        a {
+            color: #48d9ff;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>test</h1>
+    <!-- ceci est un commentaire -->
+
+    <header id="accueil">
+        <h1>BLUE LOCK</h1>
+        <p>Le projet qui veut créer le meilleur attaquant du monde.</p>
+
+        <nav>
+            <a href="#histoire">Histoire</a>
+            <a href="#personnages">Personnages</a>
+            <a href="#video">Vidéo</a>
+            <a href="#liens">Liens</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PRESENTATION -->
+
+        <section id="histoire">
+            <h2>Présentation de Blue Lock</h2>
+
+            <p>
+                <strong>Blue Lock</strong> est un manga et un anime
+                de football créé par Muneyuki Kaneshiro et Yusuke Nomura.
+            </p>
+
+            <p>
+                L'histoire suit <em>Yoichi Isagi</em>, un jeune joueur
+                qui participe à un programme destiné à former
+                le meilleur attaquant du Japon.
+            </p>
+
+            <p>
+                Dans ce projet, les joueurs doivent développer leurs
+                capacités, leur ambition et leur propre style de jeu.
+            </p>
+
+            <img
+                src="https://placehold.co/900x400/102744/00bfff?text=BLUE+LOCK"
+                alt="Illustration de présentation de Blue Lock"
+                width="900">
+
+            <p>
+                <a href="https://bluelock-pr.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visiter le site officiel de l'anime
+                </a>
+            </p>
+        </section>
+
+        <!-- PERSONNAGES -->
+
+        <section id="personnages">
+            <h2>Les personnages principaux</h2>
+
+            <article class="personnage">
+                <h3>Yoichi Isagi</h3>
+
+                <img
+                    src="https://placehold.co/400x250/12345a/ffffff?text=YOICHI+ISAGI"
+                    alt="Illustration de Yoichi Isagi"
+                    width="400">
+
+                <p>
+                    Isagi possède une excellente vision du jeu.
+                    Il cherche constamment à comprendre le terrain
+                    et à améliorer ses performances.
+                </p>
+
+                <ul>
+                    <li>Intelligence de jeu</li>
+                    <li>Adaptation</li>
+                    <li>Esprit compétitif</li>
+                </ul>
+            </article>
+
+            <article class="personnage">
+                <h3>Rin Itoshi</h3>
+
+                <img
+                    src="https://placehold.co/400x250/18315e/ffffff?text=RIN+ITOSHI"
+                    alt="Illustration de Rin Itoshi"
+                    width="400">
+
+                <p>
+                    Rin est un attaquant très technique,
+                    précis et particulièrement compétitif.
+                </p>
+            </article>
+
+            <article class="personnage">
+                <h3>Meguru Bachira</h3>
+
+                <img
+                    src="https://placehold.co/400x250/153a4d/ffffff?text=MEGURU+BACHIRA"
+                    alt="Illustration de Meguru Bachira"
+                    width="400">
+
+                <p>
+                    Bachira se distingue par son dribble,
+                    sa créativité et son jeu imprévisible.
+                </p>
+            </article>
+
+            <article class="personnage">
+                <h3>Seishiro Nagi</h3>
+
+                <img
+                    src="https://placehold.co/400x250/25334a/ffffff?text=SEISHIRO+NAGI"
+                    alt="Illustration de Seishiro Nagi"
+                    width="400">
+
+                <p>
+                    Nagi est connu pour son talent naturel
+                    et son contrôle exceptionnel du ballon.
+                </p>
+            </article>
+        </section>
+
+        <!-- TABLEAU -->
+
+        <section>
+            <h2>Comparaison des joueurs</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Joueur</th>
+                        <th>Spécialité</th>
+                        <th>Qualité</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Isagi</td>
+                        <td>Analyse</td>
+                        <td>Vision du jeu</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rin</td>
+                        <td>Technique</td>
+                        <td>Précision</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bachira</td>
+                        <td>Dribble</td>
+                        <td>Créativité</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nagi</td>
+                        <td>Contrôle</td>
+                        <td>Talent naturel</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- VIDEO -->
+
+        <section id="video">
+            <h2>Vidéo de Blue Lock</h2>
+
+            <p>
+                Voici une recherche de bandes-annonces de Blue Lock.
+            </p>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/IVsII3dLbW4"
+                title="Vidéo Blue Lock"
+                allowfullscreen>
+            </iframe>
+
+            <p>
+                Si la vidéo ne fonctionne pas,
+                <a href="https://www.youtube.com/results?search_query=Blue+Lock+official+trailer"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    clique ici pour chercher une bande-annonce.
+                </a>
+            </p>
+        </section>
+
+        <!-- LISTE -->
+
+        <section>
+            <h2>Pourquoi regarder Blue Lock ?</h2>
+
+            <ol>
+                <li>Des matchs intenses</li>
+                <li>Des personnages différents</li>
+                <li>Des techniques spectaculaires</li>
+                <li>Une compétition permanente</li>
+            </ol>
+        </section>
+
+        <!-- LIENS -->
+
+        <section id="liens">
+            <h2>Liens utiles</h2>
+
+            <ul>
+                <li>
+                    <a href="https://bluelock-pr.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Site officiel de Blue Lock
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://kodansha.us/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Site de l'éditeur Kodansha
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        YouTube
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- FORMULAIRE -->
+
+        <section>
+            <h2>Quel est ton joueur préféré ?</h2>
+
+            <form action="#" method="get">
+                <label for="pseudo">Ton pseudo :</label>
+
+                <input
+                    type="text"
+                    id="pseudo"
+                    name="pseudo"
+                    placeholder="Entre ton pseudo">
+
+                <br><br>
+
+                <label for="joueur">Choisis ton joueur :</label>
+
+                <select id="joueur" name="joueur">
+                    <option>Isagi</option>
+                    <option>Rin</option>
+                    <option>Bachira</option>
+                    <option>Nagi</option>
+                </select>
+
+                <br><br>
+
+                <label for="avis">Ton avis :</label>
+
+                <br>
+
+                <textarea
+                    id="avis"
+                    name="avis"
+                    rows="4"
+                    cols="40"
+                    placeholder="Écris ton avis ici..."></textarea>
+
+                <br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIED DE PAGE -->
+
+    <footer>
+        <hr>
+
+        <p>Site de fan Blue Lock créé pour apprendre le HTML.</p>
+
+        <p>
+            Les personnages et les marques appartiennent
+            à leurs ayants droit.
+        </p>
+
+        <a href="#accueil">Retour en haut</a>
+    </footer>
+
 </body>
 </html>
